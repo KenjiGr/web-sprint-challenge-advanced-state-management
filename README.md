@@ -109,9 +109,10 @@ In this project, you will build the reducer, actions and basic redux connects ne
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers to the questions within `interview_answers.md` file. These will not be counted as a part of your sprint score but will be helpful for preparing you for your endorsement interview, and enhancing overall understanding.
 
 1. What problem does the context API help solve?
-
+    Helps to clean up messy prop drilling from using the redux store.
 2. In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
-
+    Actions control the what function is called by passing a action type into the reducer that organized all function calls according to case. The store handles all the state making more optimized applications.
 3. What does `redux-thunk` allow us to do? How does it change our `action-creators`?
-
+    Thunk allows us to call multiple actions in an exported function which allows us to create axios calls and handle more code in less places.
 4. What is your favorite state management system you've learned and this sprint? Please explain why!
+    At first I liked the redux store management because I had more understanding and it seemed simple but now I enjoy using the context api because it allows cleaner code.
