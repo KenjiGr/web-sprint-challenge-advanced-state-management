@@ -21,7 +21,7 @@ export const addError = (err) => {
     return ({type: FETCH_FAIL, payload: err});
 }
 
-export const errorMessage = (err) => {
+export const setError = (err) => {
     return ({type: ADD_ERROR, payload: err});
 }
 
